@@ -3,7 +3,7 @@ function convertStrToInt(str) {
 }
 convertStrToInt("44");
 
-console.log(parseInt(convertStrToInt("44")));
-console.log(parseInt(convertStrToInt("27")));
-console.log(parseInt(convertStrToInt("JeffBezos")));
+console.log(convertStrToInt("44"));
+console.log(convertStrToInt("27"));
+console.log(convertStrToInt("JeffBezos"));
 module.exports = convertStrToInt;

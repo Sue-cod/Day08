@@ -4,7 +4,7 @@ function convertToInt(str) {
 
 convertToInt("BA");
 
-console.log(parseInt(convertToInt("BA")));
-console.log(parseInt(convertToInt("F1")));
-console.log(parseInt(convertToInt("JeffBezos")));
+console.log(convertToInt("BA"));
+console.log(convertToInt("F1"));
+console.log(convertToInt("JeffBezos"));
 module.exports = convertToInt;
